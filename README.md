@@ -1,7 +1,7 @@
 # Regras
 
 - O arquivo processamento.php não deve ser modificado.
-- O arquivo C12345.RET é apenas um modelo, não deve ser alterado.
+- O arquivo C12345.RET é um modelo, não deve ser alterado.
 - A interface da classe ProcessamentoRetorno não deve ser alterada, o arquivo "processamento.php" deve continuar funcionando.
 - Comentários podem ser alterados.
 - Erros podem ser tratados.
