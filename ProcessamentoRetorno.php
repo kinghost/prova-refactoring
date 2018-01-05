@@ -75,8 +75,7 @@ class ProcessamentoRetorno {
                     for ($i=0; $i < count($todoArquivo); $i++) { 
                         $totalDoArquivo += substr($todoArquivo[$i], 152, 13) / 100; 
                     }
-                    var_dump($valorTotal);
-                    var_dump($totalDoArquivo);
+                    
                     if (number_format($valorTotal, 2) != number_format($totalDoArquivo, 2)) {
                         throw new \Exception("Arquivo inconsistente");
                     } else {
