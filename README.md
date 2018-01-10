@@ -8,6 +8,10 @@
 - Arquivo ApiPagamentos.php serve apenas para utilização, *seu conteudo* não pode ser modificado.
 - Para testes, utilizar apenas phpunit.
 
+# Envio
+- Os arquivos devem ser compactados (junto com a pasta .git) e enviados para o email do RH.
+- Não serão avaliados repositórios clonados, apenas a pasta recebida via email.
+
 # Avaliação
 
 - Testes
@@ -17,5 +21,12 @@
 - Documentação
 - Logs
 - Performance
-- Utilização de conceitos SOLID, YAGNI e DRY (opiniões)
+- Utilização de conceitos SOLID, YAGNI e DRY
 - Tratamento de Erros / Segurança
+
+# Utilização do projeto
+
+```
+$ composer install
+$ php -f processamento.php
+```
